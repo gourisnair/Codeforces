@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<math.h>
+#include<string.h>
 int main()
 {
-  int n, i, temp;
+  int n, i, temp, index;
   scanf("%d", &n);
   int x;
   scanf("%d", &x);
@@ -19,6 +20,7 @@ int main()
       a[1] = temp;
     }
   }
+
   if(a[0] == 'B') {
     printf("0");
   } else if (a[1] == 'B') {
